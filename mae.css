@@ -20,26 +20,26 @@ body {
 
 header {
     background-color: #b45c5c;
-    padding: 10px 20px; /* Adicionando espaçamento no topo e nas laterais */
+    padding: 10px 20px; 
     display: flex;
-    align-items: center; /* Alinha todos os itens verticalmente */
-    justify-content: flex-start; /* Garante que os itens comecem da esquerda */
-    height: 100px; /* Define a altura do cabeçalho */
-    border-bottom: 1px solid #ddd; /* Borda para separar o cabeçalho */
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100px; 
+    border-bottom: 1px solid #ddd; 
 }
 header h1 {
     font-size: 2.5rem;
-    margin-left: 20px; /* Ajuste para o título não ficar muito próximo do logo */
-    flex-grow: 1; /* Faz com que o título ocupe o restante do espaço */
+    margin-left: 20px;
+    flex-grow: 1;
     color: white;
     font-size: 18px;
 }
 
 .logo {
-    height: 100%; /* Logo ocupa toda a altura do cabeçalho */
-    width: auto; /* Mantém as proporções da imagem */
-    max-height: 80px; /* Limita a altura máxima da logo */
-    margin-right: 20px; /* Dá espaço entre a logo e o título */
+    height: 100%; 
+    width: auto;
+    max-height: 80px; 
+    margin-right: 20px;
     transform: scale(1.1);
 }
 
